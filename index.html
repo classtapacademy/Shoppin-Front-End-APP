@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ShopEase - A simple e-commerce store for men and women fashion"
+    />
+    <title>ShopEase - Online Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVIGATION BAR ================= -->
+    <header class="site-header">
+      <nav class="global-nav">
+        <h1 class="logo"><a href="#home">ShopEase</a></h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <form class="search" action="#" method="get">
+          <label for="search" class="visually-hidden">Search</label>
+          <input
+            type="search"
+            id="search"
+            name="q"
+            placeholder="Search products"
+          />
+        </form>
+        <div class="nav-actions">
+          <a href="#">Login</a>
+          <a href="#">Cart (0)</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= HERO SECTION ================= -->
+      <section id="home" class="hero">
+        <p class="kicker">Summer Collection</p>
+        <h2>Big Summer Sale.</h2>
+        <p class="hero-copy">
+          Get up to <strong>50% off</strong> on the latest fashion for men and
+          women.
+        </p>
+        <p class="hero-actions">
+          <a href="#trending" class="btn btn-primary">Shop Now</a>
+          <a href="#men" class="btn btn-outline">Explore</a>
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&h=500&fit=crop"
+          alt="Woman holding shopping bags"
+          width="1200"
+          height="500"
+        />
+      </section>
+
+      <!-- ================= TRENDING SECTION ================= -->
+      <section id="trending" class="band band-mist">
+        <div class="section-head">
+          <h2>Trending Products</h2>
+          <a href="#trending" class="text-link">View all &rsaquo;</a>
+        </div>
+        <p class="section-sub">Our most popular picks this week.</p>
+
+        <div class="grid">
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1557531365-e8b22d93dbd0?w=300&h=300&fit=crop"
+                alt="Round analog watch with brown leather band"
+                width="300"
+                height="300"
+              />
+              <figcaption>New</figcaption>
+            </figure>
+            <h3>Classic Wrist Watch</h3>
+            <p>
+              Elegant stainless steel watch with a leather strap, perfect for
+              every occasion.
+            </p>
+            <p class="price">
+              <data value="1999">&#8377;1,999</data> <del>&#8377;2,999</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1608229751021-ed4bd8677753?w=300&h=300&fit=crop"
+                alt="White athletic sneakers"
+                width="300"
+                height="300"
+              />
+              <figcaption>Bestseller</figcaption>
+            </figure>
+            <h3>Running Sneakers</h3>
+            <p>
+              Lightweight and breathable sneakers designed for daily running and
+              comfort.
+            </p>
+            <p class="price">
+              <data value="2499">&#8377;2,499</data> <del>&#8377;3,499</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop"
+                alt="Wireless over-ear headphones"
+                width="300"
+                height="300"
+              />
+              <figcaption>New</figcaption>
+            </figure>
+            <h3>Wireless Headphones</h3>
+            <p>
+              Noise-cancelling over-ear headphones with 30 hours of battery
+              life.
+            </p>
+            <p class="price">
+              <data value="3499">&#8377;3,499</data> <del>&#8377;4,999</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop"
+                alt="Black travel backpack"
+                width="300"
+                height="300"
+              />
+              <figcaption>Trending</figcaption>
+            </figure>
+            <h3>Travel Backpack</h3>
+            <p>
+              Water-resistant backpack with a padded laptop compartment and many
+              pockets.
+            </p>
+            <p class="price">
+              <data value="1499">&#8377;1,499</data> <del>&#8377;1,999</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300&h=300&fit=crop"
+                alt="Black wayfarer sunglasses"
+                width="300"
+                height="300"
+              />
+              <figcaption>Trending</figcaption>
+            </figure>
+            <h3>Stylish Sunglasses</h3>
+            <p>UV-protected polarized sunglasses with a lightweight frame.</p>
+            <p class="price">
+              <data value="899">&#8377;899</data> <del>&#8377;1,299</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300&h=300&fit=crop"
+                alt="Smartwatch with black sports band"
+                width="300"
+                height="300"
+              />
+              <figcaption>New</figcaption>
+            </figure>
+            <h3>Smart Fitness Watch</h3>
+            <p>
+              Track your steps, heart rate and sleep with this smart fitness
+              band.
+            </p>
+            <p class="price">
+              <data value="2999">&#8377;2,999</data> <del>&#8377;3,999</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?w=300&h=300&fit=crop"
+                alt="Colorful metal water bottles"
+                width="300"
+                height="300"
+              />
+              <figcaption>Bestseller</figcaption>
+            </figure>
+            <h3>Steel Water Bottle</h3>
+            <p>
+              Insulated bottle that keeps drinks cold for 24 hours and hot for
+              12 hours.
+            </p>
+            <p class="price">
+              <data value="599">&#8377;599</data> <del>&#8377;799</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=300&fit=crop"
+                alt="Portable bluetooth speaker on a wooden table"
+                width="300"
+                height="300"
+              />
+              <figcaption>Trending</figcaption>
+            </figure>
+            <h3>Bluetooth Speaker</h3>
+            <p>
+              Portable speaker with deep bass, waterproof body and 12 hours of
+              playback.
+            </p>
+            <p class="price">
+              <data value="1799">&#8377;1,799</data> <del>&#8377;2,499</del>
+            </p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= MEN SECTION ================= -->
+      <section id="men" class="band">
+        <div class="section-head">
+          <h2>Men's Collection</h2>
+          <a href="#men" class="text-link">Shop Men &rsaquo;</a>
+        </div>
+        <p class="section-sub">Smart, casual and comfortable styles for men.</p>
+
+        <div class="grid">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=300&fit=crop"
+              alt="Blue button-down shirt on a hanger"
+              width="300"
+              height="300"
+            />
+            <h3>Cotton Casual Shirt</h3>
+            <p>Soft, breathable cotton shirt with a regular fit.</p>
+            <p class="price">&#8377;999</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=300&h=300&fit=crop"
+              alt="Blue denim jeans on a white background"
+              width="300"
+              height="300"
+            />
+            <h3>Slim Fit Jeans</h3>
+            <p>Stretchable denim jeans for all-day comfort.</p>
+            <p class="price">&#8377;1,299</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=300&h=300&fit=crop"
+              alt="Man wearing a denim jacket"
+              width="300"
+              height="300"
+            />
+            <h3>Denim Jacket</h3>
+            <p>Classic blue denim jacket for a rugged look.</p>
+            <p class="price">&#8377;2,199</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=300&h=300&fit=crop"
+              alt="Brown leather lace-up shoes"
+              width="300"
+              height="300"
+            />
+            <h3>Formal Leather Shoes</h3>
+            <p>Genuine leather shoes for office and parties.</p>
+            <p class="price">&#8377;2,799</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= WOMEN SECTION ================= -->
+      <section id="women" class="band band-mist">
+        <div class="section-head">
+          <h2>Women's Collection</h2>
+          <a href="#women" class="text-link">Shop Women &rsaquo;</a>
+        </div>
+        <p class="section-sub">Trendy and elegant outfits for women.</p>
+
+        <div class="grid">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1602010069450-0a62034f235c?w=300&h=300&fit=crop"
+              alt="Woman in a floral dress"
+              width="300"
+              height="300"
+            />
+            <h3>Floral Summer Dress</h3>
+            <p>Light and flowy dress with a beautiful floral print.</p>
+            <p class="price">&#8377;1,499</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1745313452052-0e4e341f326c?w=300&h=300&fit=crop"
+              alt="Woman in a white floral kurta"
+              width="300"
+              height="300"
+            />
+            <h3>Cotton Kurti</h3>
+            <p>Comfortable ethnic kurti for daily and festive wear.</p>
+            <p class="price">&#8377;899</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1605733513597-a8f8341084e6?w=300&h=300&fit=crop"
+              alt="Grey leather handbag with gold buckles"
+              width="300"
+              height="300"
+            />
+            <h3>Leather Handbag</h3>
+            <p>Spacious and stylish handbag with multiple compartments.</p>
+            <p class="price">&#8377;1,999</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=300&h=300&fit=crop"
+              alt="Floral print pointed-toe heels"
+              width="300"
+              height="300"
+            />
+            <h3>Floral Heels</h3>
+            <p>Elegant floral print heels that match any outfit.</p>
+            <p class="price">&#8377;1,299</p>
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= NEWSLETTER (ASIDE) ================= -->
+      <aside class="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Get the latest offers and new arrivals directly in your inbox.</p>
+        <form action="#" method="post">
+          <label for="email" class="visually-hidden">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </aside>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="contact" class="site-footer">
+      <div class="footer-grid">
+        <section>
+          <h3>About ShopEase</h3>
+          <p>
+            ShopEase is your one-stop online store for trendy and affordable
+            fashion.
+          </p>
+        </section>
+
+        <nav>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+          </ul>
+        </nav>
+
+        <section>
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">Help &amp; FAQs</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns &amp; Refunds</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </section>
+
+        <address>
+          <h3>Contact Us</h3>
+          123 Market Street, Bengaluru, India<br />
+          Email: <a href="mailto:support@shopease.com">support@shopease.com</a
+          ><br />
+          Phone: <a href="tel:+919876543210">+91 98765 43210</a>
+        </address>
+      </div>
+
+      <p class="copyright">
+        <small>&copy; 2026 ShopEase. All rights reserved.</small>
+      </p>
+    </footer>
+  </body>
+</html>
